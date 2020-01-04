@@ -18,12 +18,16 @@
 		</InputField>
 		<InputField name="Создан" id="7">
 			<DataPath>Объект.Создан</DataPath>
+			<Enabled>false</Enabled>
+			<SkipOnInput>true</SkipOnInput>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="СозданКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="СозданРасширеннаяПодсказка" id="9"/>
 		</InputField>
 		<InputField name="Обновлён" id="10">
 			<DataPath>Объект.Обновлён</DataPath>
+			<Enabled>false</Enabled>
+			<SkipOnInput>true</SkipOnInput>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="ОбновлёнКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ОбновлёнРасширеннаяПодсказка" id="12"/>

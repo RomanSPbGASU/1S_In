@@ -126,6 +126,8 @@
 			<Enum>Статус</Enum>
 			<Enum>СтатусЛичногоКабинета</Enum>
 			<Enum>ВидыПриёмаНаРаботу</Enum>
+			<Enum>КачествоТоваров</Enum>
+			<Enum>Происхождение</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
