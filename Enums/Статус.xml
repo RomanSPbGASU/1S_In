@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="5bc57766-6be6-48a8-8ab9-d2250a317bf6">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Статус" category="Ref">
+				<xr:TypeId>c295dea2-7f4f-4c2e-80ed-9a9210c05a51</xr:TypeId>
+				<xr:ValueId>8b96c876-38ef-43d2-b552-90c580e028e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Статус" category="Manager">
+				<xr:TypeId>1dde9ea8-f6f2-44d7-a4c6-5f49fa540a6e</xr:TypeId>
+				<xr:ValueId>6d744092-5e40-4bce-919e-d2995625249a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Статус" category="List">
+				<xr:TypeId>d6baa315-6b67-4243-8eed-010910a86def</xr:TypeId>
+				<xr:ValueId>25c09dff-eb02-49d3-8427-7e15c80c6f0e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Статус</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="889feeae-0736-4494-8dff-2d1ffd89fc13">
+				<Properties>
+					<Name>НовыйУчастник</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новый участник</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f667c843-f4ff-43dd-a834-0253d8d3fc80">
+				<Properties>
+					<Name>УчаствовалВМероприятиях</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Участвовал в мероприятиях</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dbdd24a8-d4ea-4577-b8bb-ea90e9fb7645">
+				<Properties>
+					<Name>Заблокирован</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заблокирован</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Заблокирован за нарушение правил клуба</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
