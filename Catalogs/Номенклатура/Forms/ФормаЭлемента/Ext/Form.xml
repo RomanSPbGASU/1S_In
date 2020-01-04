@@ -1,9 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<Customizable>false</Customizable>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
+		<CommandBar name="Группа3" id="28">
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="29"/>
+		</CommandBar>
 		<InputField name="Код" id="1">
 			<DataPath>Объект.Code</DataPath>
 			<EditMode>EnterOnInput</EditMode>
@@ -22,85 +26,188 @@
 			<ContextMenu name="НДСКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="НДСРасширеннаяПодсказка" id="9"/>
 		</InputField>
-		<CheckBoxField name="Услуга" id="10">
-			<DataPath>Объект.Услуга</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="УслугаКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="УслугаРасширеннаяПодсказка" id="12"/>
-		</CheckBoxField>
-		<CheckBoxField name="Весовой" id="13">
-			<DataPath>Объект.Весовой</DataPath>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="ВесовойКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="ВесовойРасширеннаяПодсказка" id="15"/>
-		</CheckBoxField>
-		<RadioButtonField name="КачествоНоменклатуры" id="16">
-			<DataPath>Объект.КачествоНоменклатуры</DataPath>
-			<RadioButtonType>Auto</RadioButtonType>
-			<ColumnsCount>1</ColumnsCount>
-			<ChoiceList>
-				<xr:Item>
-					<xr:Presentation/>
-					<xr:CheckState>0</xr:CheckState>
-					<xr:Value xsi:type="FormChoiceListDesTimeValue">
-						<Presentation/>
-						<Value xsi:type="xr:DesignTimeRef">Enum.КачествоТоваров.EnumValue.Низкое</Value>
-					</xr:Value>
-				</xr:Item>
-				<xr:Item>
-					<xr:Presentation/>
-					<xr:CheckState>0</xr:CheckState>
-					<xr:Value xsi:type="FormChoiceListDesTimeValue">
-						<Presentation/>
-						<Value xsi:type="xr:DesignTimeRef">Enum.КачествоТоваров.EnumValue.Обычное</Value>
-					</xr:Value>
-				</xr:Item>
-				<xr:Item>
-					<xr:Presentation/>
-					<xr:CheckState>0</xr:CheckState>
-					<xr:Value xsi:type="FormChoiceListDesTimeValue">
-						<Presentation/>
-						<Value xsi:type="xr:DesignTimeRef">Enum.КачествоТоваров.EnumValue.Высокое</Value>
-					</xr:Value>
-				</xr:Item>
-			</ChoiceList>
-			<ContextMenu name="КачествоНоменклатурыКонтекстноеМеню" id="17"/>
-			<ExtendedTooltip name="КачествоНоменклатурыРасширеннаяПодсказка" id="18"/>
-		</RadioButtonField>
-		<RadioButtonField name="ПроисхождениеНоменклатуры" id="19">
-			<DataPath>Объект.ПроисхождениеНоменклатуры</DataPath>
-			<RadioButtonType>Auto</RadioButtonType>
-			<ColumnsCount>1</ColumnsCount>
-			<ChoiceList>
-				<xr:Item>
-					<xr:Presentation/>
-					<xr:CheckState>0</xr:CheckState>
-					<xr:Value xsi:type="FormChoiceListDesTimeValue">
-						<Presentation/>
-						<Value xsi:type="xr:DesignTimeRef">Enum.Происхождение.EnumValue.отечественный</Value>
-					</xr:Value>
-				</xr:Item>
-				<xr:Item>
-					<xr:Presentation/>
-					<xr:CheckState>0</xr:CheckState>
-					<xr:Value xsi:type="FormChoiceListDesTimeValue">
-						<Presentation/>
-						<Value xsi:type="xr:DesignTimeRef">Enum.Происхождение.EnumValue.импортный</Value>
-					</xr:Value>
-				</xr:Item>
-				<xr:Item>
-					<xr:Presentation/>
-					<xr:CheckState>0</xr:CheckState>
-					<xr:Value xsi:type="FormChoiceListDesTimeValue">
-						<Presentation/>
-						<Value xsi:type="xr:DesignTimeRef">Enum.Происхождение.EnumValue.неизвестно</Value>
-					</xr:Value>
-				</xr:Item>
-			</ChoiceList>
-			<ContextMenu name="ПроисхождениеНоменклатурыКонтекстноеМеню" id="20"/>
-			<ExtendedTooltip name="ПроисхождениеНоменклатурыРасширеннаяПодсказка" id="21"/>
-		</RadioButtonField>
+		<UsualGroup name="ПоляСВыбором" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поля с выбором</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поля с выбором</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ПоляСВыборомРасширеннаяПодсказка" id="25"/>
+			<ChildItems>
+				<UsualGroup name="Флажки" id="26">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Флажки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Флажки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ФлажкиРасширеннаяПодсказка" id="27"/>
+					<ChildItems>
+						<CheckBoxField name="Услуга" id="10">
+							<DataPath>Объект.Услуга</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="УслугаКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="УслугаРасширеннаяПодсказка" id="12"/>
+						</CheckBoxField>
+						<CheckBoxField name="Весовой" id="13">
+							<DataPath>Объект.Весовой</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ВесовойКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ВесовойРасширеннаяПодсказка" id="15"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<RadioButtonField name="КачествоНоменклатуры" id="16">
+					<DataPath>Объект.КачествоНоменклатуры</DataPath>
+					<RadioButtonType>Auto</RadioButtonType>
+					<ColumnsCount>1</ColumnsCount>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.КачествоТоваров.EnumValue.Низкое</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.КачествоТоваров.EnumValue.Обычное</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.КачествоТоваров.EnumValue.Высокое</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="КачествоНоменклатурыКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="КачествоНоменклатурыРасширеннаяПодсказка" id="18"/>
+				</RadioButtonField>
+				<RadioButtonField name="ПроисхождениеНоменклатуры" id="19">
+					<DataPath>Объект.ПроисхождениеНоменклатуры</DataPath>
+					<RadioButtonType>Auto</RadioButtonType>
+					<ColumnsCount>1</ColumnsCount>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.Происхождение.EnumValue.отечественный</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.Происхождение.EnumValue.импортный</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.Происхождение.EnumValue.неизвестно</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ПроисхождениеНоменклатурыКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ПроисхождениеНоменклатурыРасширеннаяПодсказка" id="21"/>
+				</RadioButtonField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Группа1" id="30">
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="31"/>
+			<ChildItems>
+				<Page name="СтраницаСКнопкой" id="32">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница с кнопкой</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница с кнопкой</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаСКнопкойРасширеннаяПодсказка" id="33"/>
+					<ChildItems>
+						<Button name="Сообщить" id="22">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<CommandName>Form.Command.СообщитьСообщение</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сообщить сообщение</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="СообщитьРасширеннаяПодсказка" id="23"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаСТекстом" id="34">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница с текстом</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница с текстом</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаСТекстомРасширеннаяПодсказка" id="35"/>
+					<ChildItems>
+						<LabelDecoration name="Декорация1" id="36">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
+In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.
+Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpat. Sed at lorem in nunc porta tristique. Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc ac magna. Maecenas odio dolor, vulputate vel, auctor ac, accumsan id, felis. Pellentesque cursus sagittis felis.
+</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Декорация1КонтекстноеМеню" id="37"/>
+							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="38"/>
+						</LabelDecoration>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -111,4 +218,21 @@
 			<SavedData>true</SavedData>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="СообщитьСообщение" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщить сообщение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщить сообщение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СообщитьСообщение</Action>
+		</Command>
+	</Commands>
 </Form>
