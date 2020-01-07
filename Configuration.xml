@@ -122,12 +122,16 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Счета</Catalog>
+			<Catalog>СтавкиНДС</Catalog>
+			<Document>РасходДенег</Document>
+			<Document>ПоступлениеДенег</Document>
 			<Enum>РольПользователя</Enum>
 			<Enum>Статус</Enum>
 			<Enum>СтатусЛичногоКабинета</Enum>
 			<Enum>ВидыПриёмаНаРаботу</Enum>
 			<Enum>КачествоТоваров</Enum>
 			<Enum>Происхождение</Enum>
+			<Enum>СпособыОплаты</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

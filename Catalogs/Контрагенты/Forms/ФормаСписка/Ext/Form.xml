@@ -82,6 +82,9 @@
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
+					<Events>
+						<Event name="OnChange">НаименованиеПриИзменении</Event>
+					</Events>
 				</LabelField>
 				<LabelField name="Код" id="19">
 					<DataPath>Список.Code</DataPath>

@@ -4,6 +4,9 @@
 	<Customizable>false</Customizable>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<CommandBar name="Группа3" id="28">
 			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="29"/>
