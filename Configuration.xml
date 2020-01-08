@@ -125,6 +125,8 @@
 			<Catalog>СтавкиНДС</Catalog>
 			<Document>РасходДенег</Document>
 			<Document>ПоступлениеДенег</Document>
+			<Document>ПриходнаяНакладная</Document>
+			<Document>РасходнаяНакладная</Document>
 			<Enum>РольПользователя</Enum>
 			<Enum>Статус</Enum>
 			<Enum>СтатусЛичногоКабинета</Enum>
