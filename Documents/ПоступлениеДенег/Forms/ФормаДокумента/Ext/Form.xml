@@ -51,6 +51,14 @@
 					<ContextMenu name="СуммаКонтекстноеМеню" id="14"/>
 					<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="15"/>
 				</InputField>
+				<InputField name="Валюта" id="41">
+					<DataPath>Объект.Валюта</DataPath>
+					<Width>10</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ВалютаКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ВалютаРасширеннаяПодсказка" id="43"/>
+				</InputField>
 				<CheckBoxField name="Управленческий" id="16">
 					<DataPath>Объект.Управленческий</DataPath>
 					<TitleLocation>Right</TitleLocation>

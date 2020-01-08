@@ -113,9 +113,14 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Пользователи</Subsystem>
+			<Subsystem>Мероприятия</Subsystem>
+			<Subsystem>Финансы</Subsystem>
+			<FunctionalOption>ВалютныйУчёт</FunctionalOption>
 			<Constant>НазваниеОрганизации</Constant>
 			<Constant>ИНН</Constant>
 			<Constant>ГенеральныйДиректор</Constant>
+			<Constant>ВестиВалютныйУчётПродаж</Constant>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Мероприятия</Catalog>
 			<Catalog>КлубныеКарты</Catalog>
@@ -123,6 +128,7 @@
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Счета</Catalog>
 			<Catalog>СтавкиНДС</Catalog>
+			<Catalog>Валюты</Catalog>
 			<Document>РасходДенег</Document>
 			<Document>ПоступлениеДенег</Document>
 			<Document>ПриходнаяНакладная</Document>
