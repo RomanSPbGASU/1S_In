@@ -44,7 +44,7 @@
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
-			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
+			<UseOrdinaryFormInManagedApplication>true</UseOrdinaryFormInManagedApplication>
 			<AdditionalFullTextSearchDictionaries/>
 			<CommonSettingsStorage/>
 			<ReportsUserSettingsStorage/>
@@ -116,6 +116,7 @@
 			<Subsystem>Пользователи</Subsystem>
 			<Subsystem>Мероприятия</Subsystem>
 			<Subsystem>Финансы</Subsystem>
+			<Subsystem>Администрирование</Subsystem>
 			<FunctionalOption>ВалютныйУчёт</FunctionalOption>
 			<Constant>НазваниеОрганизации</Constant>
 			<Constant>ИНН</Constant>
@@ -133,6 +134,7 @@
 			<Document>ПоступлениеДенег</Document>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
+			<Document>ПереводПользователя</Document>
 			<Enum>РольПользователя</Enum>
 			<Enum>Статус</Enum>
 			<Enum>СтатусЛичногоКабинета</Enum>
@@ -140,6 +142,9 @@
 			<Enum>КачествоТоваров</Enum>
 			<Enum>Происхождение</Enum>
 			<Enum>СпособыОплаты</Enum>
+			<InformationRegister>ЦеныПоставщиков</InformationRegister>
+			<InformationRegister>КурсыВалют</InformationRegister>
+			<InformationRegister>СведенияОПользователях</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

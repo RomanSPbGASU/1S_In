@@ -31,6 +31,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ГенеральныйДиректор</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИНН</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.НазваниеОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЦеныПоставщиков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КурсыВалют</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
