@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.7">
+	<Item id="036cb143-74f6-4b03-b4a9-0ad09f5fd73b">
+		<Name>Женщинам</Name>
+		<Code>000000003</Code>
+		<Description>Женщинам</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="d9ecb04b-27a5-4c04-b2ba-61186d02026d">
+				<Name>Конфеты</Name>
+				<Code>000000005</Code>
+				<Description>Конфеты</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="e51ef6e9-ecb6-459e-b1cb-7ede2a095be5">
+				<Name>Полотенчики</Name>
+				<Code>000000006</Code>
+				<Description>Полотенчики</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="338980b0-d693-4a14-8419-c96cea367530">
+				<Name>Шарик</Name>
+				<Code>000000007</Code>
+				<Description>Шарик</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="1a218845-e276-4b7d-90e3-f3153a6c4383">
+		<Name>Мужчинам</Name>
+		<Code>000000001</Code>
+		<Description>Мужчинам</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="a0757193-6a96-44dc-8ef4-76369658e8a8">
+				<Name>Носки</Name>
+				<Code>000000008</Code>
+				<Description>Носки</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="7c6ebbaf-eb4d-4628-98ba-5cbb9766da4c">
+				<Name>Ручка</Name>
+				<Code>000000010</Code>
+				<Description>Ручка</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="efc34e4f-a520-4502-8214-88d65fc39ff2">
+				<Name>Шампунь</Name>
+				<Code>000000009</Code>
+				<Description>Шампунь</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="7cff6ffe-1b71-4d41-8b5a-82ec49b85b79">
+		<Name>Руководству</Name>
+		<Code>000000004</Code>
+		<Description>Руководству</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="a5bbbe58-6545-43fb-989f-aace5cb8cdbf">
+				<Name>БилетыВОперу</Name>
+				<Code>000000013</Code>
+				<Description>Билеты в оперу</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c0938e5e-eb7d-42f3-98c8-dbaffabf5189">
+				<Name>Коньяк</Name>
+				<Code>000000011</Code>
+				<Description>Коньяк</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="cdca24a4-1c51-4970-a8fd-0223f0f8b25c">
+				<Name>СертификатВСПА</Name>
+				<Code>000000012</Code>
+				<Description>Сертификат в СПА</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>
