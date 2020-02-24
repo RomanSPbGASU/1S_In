@@ -20,12 +20,19 @@
 				<Event name="OnChange">ДатаПриИзменении</Event>
 			</Events>
 		</InputField>
-		<InputField name="Года" id="38">
+		<InputField name="Годы" id="38">
 			<DataPath>Объект.Годы</DataPath>
-			<ContextMenu name="ГодаКонтекстноеМеню" id="39"/>
-			<ExtendedTooltip name="ГодаРасширеннаяПодсказка" id="40"/>
+			<ContextMenu name="ГодыКонтекстноеМеню" id="39"/>
+			<ExtendedTooltip name="ГодыРасширеннаяПодсказка" id="40"/>
 			<Events>
+				<Event name="OnChange">ГодыПриИзменении</Event>
 				<Event name="EditTextChange">ГодыИзменениеТекстаРедактирования</Event>
+				<Event name="AutoComplete">ГодыАвтоПодбор</Event>
+				<Event name="StartChoice">ГодыНачалоВыбора</Event>
+				<Event name="Tuning">ГодыРегулирование</Event>
+				<Event name="Creating">ГодыСоздание</Event>
+				<Event name="TextEditEnd">ГодыОкончаниеВводаТекста</Event>
+				<Event name="ChoiceProcessing">ГодыОбработкаВыбора</Event>
 			</Events>
 		</InputField>
 		<Table name="ПодаркиДляПользователей" id="10">

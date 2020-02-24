@@ -84,8 +84,8 @@
 			<Metadata name="Document.ПодаркиНГ.TabularSection.ПодаркиДляПользователей" id="bb270c54-b31b-4cb1-b492-f867c8502e6a"/>
 			<Metadata name="Document.ПодаркиНГ.TabularSection.ПодаркиДляПользователей.Attribute.ЛичныйКабинет" id="f2978bf7-d675-4df9-ac11-109e2c5dc59c"/>
 		</Metadata>
-		<Metadata name="Document.ПодаркиНГ.Form.ФормаДокумента" id="5bea4eba-9f8a-41b1-889d-0d4572bf1ca4" configVersion="103a48bbd24f6446b87ffb4a057d6ae500000000"/>
-		<Metadata name="Document.ПодаркиНГ.Form.ФормаДокумента.Form" id="5bea4eba-9f8a-41b1-889d-0d4572bf1ca4.0" configVersion="b30f6239ff204c408763712663949f0800000000"/>
+		<Metadata name="Document.ПодаркиНГ.Form.ФормаДокумента" id="5bea4eba-9f8a-41b1-889d-0d4572bf1ca4" configVersion="e42a219188d6a346a80bc9bfd626e4ec00000000"/>
+		<Metadata name="Document.ПодаркиНГ.Form.ФормаДокумента.Form" id="5bea4eba-9f8a-41b1-889d-0d4572bf1ca4.0" configVersion="1a48827445ce2e4b8c492b59e234398500000000"/>
 		<Metadata name="Document.ПоступлениеДенег" id="2408071c-13bd-402c-91a9-a8d3cae6bb37" configVersion="3a8451a804a6cb48892e85fa27ab85d900000000">
 			<Metadata name="Document.ПоступлениеДенег.Attribute.Валюта" id="3e526c9f-7d6c-443e-aeec-76d1af64470c"/>
 			<Metadata name="Document.ПоступлениеДенег.Attribute.Сумма" id="42c0a599-8209-4e9e-8677-eca76ee91967"/>
