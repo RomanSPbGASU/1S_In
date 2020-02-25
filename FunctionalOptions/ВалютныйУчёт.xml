@@ -14,8 +14,6 @@
 			<PrivilegedGetMode>true</PrivilegedGetMode>
 			<Content>
 				<xr:Object>Document.ПоступлениеДенег.Attribute.Валюта</xr:Object>
-				<xr:Object>Subsystem.Пользователи</xr:Object>
-				<xr:Object>Subsystem.Мероприятия</xr:Object>
 				<xr:Object>Subsystem.Финансы</xr:Object>
 				<xr:Object>InformationRegister.КурсыВалют</xr:Object>
 			</Content>

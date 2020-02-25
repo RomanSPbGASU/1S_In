@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Document uuid="ade96aaf-88a9-43d7-ae73-e79da88a26c1">
+	<Document uuid="bd23d135-de96-46c8-b91d-851e2f5395fd">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ПодаркиНГ" category="Object">
-				<xr:TypeId>4e90bb75-cbc5-47ea-8efe-85ae9d88078e</xr:TypeId>
-				<xr:ValueId>0f19ae2b-6c10-40b9-ab24-dd77e4dd54a8</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ЗакупкаПодарков" category="Object">
+				<xr:TypeId>3a8c3b86-db76-43c2-9daf-0d228c8efd54</xr:TypeId>
+				<xr:ValueId>4a58bfd8-4648-43bd-bfba-f2622b8c6842</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ПодаркиНГ" category="Ref">
-				<xr:TypeId>7551b8cc-c8b9-46eb-a2c9-373a32f46c47</xr:TypeId>
-				<xr:ValueId>bc0515be-10a1-4aed-97d9-aa5ce85a535d</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ЗакупкаПодарков" category="Ref">
+				<xr:TypeId>1baa7c28-ce9b-43de-ac05-301c7c3d3f47</xr:TypeId>
+				<xr:ValueId>cc8b97f5-354c-4208-b0b2-562720dc3bac</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ПодаркиНГ" category="Selection">
-				<xr:TypeId>737fa49e-9e2d-40c9-b99a-1b7de31617fc</xr:TypeId>
-				<xr:ValueId>bf29f58d-51ba-4dd7-b8f6-c76e5d98ed81</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ЗакупкаПодарков" category="Selection">
+				<xr:TypeId>cae85269-b490-43cd-9e48-915ee314f677</xr:TypeId>
+				<xr:ValueId>ee9f4c61-ef71-4ae3-ada8-0359748769d3</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ПодаркиНГ" category="List">
-				<xr:TypeId>dd221bf0-682b-4150-bd31-7338706b8ded</xr:TypeId>
-				<xr:ValueId>0f3d9718-0e50-47de-a3c6-2e5b1221731c</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ЗакупкаПодарков" category="List">
+				<xr:TypeId>da705bfa-2d3c-49bc-b2bc-1edbdc7edff7</xr:TypeId>
+				<xr:ValueId>fe14019a-1a83-456f-ad9e-1f123cd43269</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ПодаркиНГ" category="Manager">
-				<xr:TypeId>adf49d3f-52d9-4330-b784-4c6c16d04c50</xr:TypeId>
-				<xr:ValueId>0d57db6c-bdc6-497e-b25d-d90cd8508352</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ЗакупкаПодарков" category="Manager">
+				<xr:TypeId>ff8d7f69-75cf-4885-8c45-25ad105770e6</xr:TypeId>
+				<xr:ValueId>e25c0f3a-f1cb-43ba-8598-ba5ed0fc49cb</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ПодаркиНГ</Name>
+			<Name>ЗакупкаПодарков</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Подарки на новый год</v8:content>
+					<v8:content>Закупка подарков</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -43,13 +43,13 @@
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.ПодаркиНГ.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ЗакупкаПодарков.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Document.ПодаркиНГ.Form.ФормаДокумента</DefaultObjectForm>
+			<DefaultObjectForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -76,77 +76,23 @@
 			<DataHistory>DontUse</DataHistory>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="ac014f84-e874-4928-8c27-af979277c457">
-				<Properties>
-					<Name>Годы</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Годы</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>9</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ДФ=yyyy/yyyy</v8:content>
-						</v8:item>
-					</Format>
-					<EditFormat>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ДФ=yyyy/yyyy</v8:content>
-						</v8:item>
-					</EditFormat>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask>9999/9999</Mask>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Form>ФормаДокумента</Form>
-			<TabularSection uuid="bb270c54-b31b-4cb1-b492-f867c8502e6a">
+			<TabularSection uuid="8dcb50c5-b8d0-41c6-aea9-b03984620afe">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ПодаркиНГ.ПодаркиДляПользователей" category="TabularSection">
-						<xr:TypeId>6901fcd1-8e43-415b-9632-fee590918562</xr:TypeId>
-						<xr:ValueId>a58e4700-aeeb-4390-a743-21a4a8a28273</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSection.ЗакупкаПодарков.НакладнаяНаПодарки" category="TabularSection">
+						<xr:TypeId>50998fa3-471f-428f-8dad-ecd0937598c4</xr:TypeId>
+						<xr:ValueId>1e8eb424-8715-492a-8bae-880a42e2a3ef</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ПодаркиНГ.ПодаркиДляПользователей" category="TabularSectionRow">
-						<xr:TypeId>3fb69d1b-11d5-40ea-8088-c6952285b357</xr:TypeId>
-						<xr:ValueId>d4116343-20e1-43ba-9308-82894eadd3a5</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЗакупкаПодарков.НакладнаяНаПодарки" category="TabularSectionRow">
+						<xr:TypeId>9a609c13-276c-4647-bea1-b8fd578e5855</xr:TypeId>
+						<xr:ValueId>6bbe8c4d-6509-44ca-8c88-bbf61a20f61f</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>ПодаркиДляПользователей</Name>
+					<Name>НакладнаяНаПодарки</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Подарки для пользователей</v8:content>
+							<v8:content>Накладная на подарки</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -154,18 +100,22 @@
 					<FillChecking>DontCheck</FillChecking>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="3bceedb5-eb87-44d9-9139-8497cc81707f">
+					<Attribute uuid="d22029b2-f9f7-4060-984c-53412387e706">
 						<Properties>
-							<Name>Пользователь</Name>
+							<Name>Подарки</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Пользователь</v8:content>
+									<v8:content>Подарки</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>10</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -191,18 +141,22 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="f2978bf7-d675-4df9-ac11-109e2c5dc59c">
+					<Attribute uuid="a171cc07-c780-4b72-9f2a-dae700146b60">
 						<Properties>
-							<Name>ЛичныйКабинет</Name>
+							<Name>ЦенаЗаШтуку</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Личный кабинет</v8:content>
+									<v8:content>Цена за штуку</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:EnumRef.СтатусЛичногоКабинета</v8:Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>10</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -228,18 +182,22 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="0cad5fb9-f154-4703-9b3e-865cec98b5b6">
+					<Attribute uuid="88808535-9223-4471-a6ca-2357a91e5682">
 						<Properties>
-							<Name>Подарок</Name>
+							<Name>Количество</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Подарок</v8:content>
+									<v8:content>Количество</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.ПодаркиНГ</v8:Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>10</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -251,7 +209,7 @@
 							<ExtendedEdit>false</ExtendedEdit>
 							<MinValue xsi:nil="true"/>
 							<MaxValue xsi:nil="true"/>
-							<FillChecking>ShowError</FillChecking>
+							<FillChecking>DontCheck</FillChecking>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<ChoiceParameterLinks/>
 							<ChoiceParameters/>
@@ -265,18 +223,22 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="4819e3b0-993c-4c9b-bf64-15041634382d">
+					<Attribute uuid="e590d727-466c-451a-a903-b949979abd5a">
 						<Properties>
-							<Name>Корпоратив</Name>
+							<Name>Сумма</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Корпоратив</v8:content>
+									<v8:content>Сумма</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:EnumRef.ПрисутствиеНаКорпоративе</v8:Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>10</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>

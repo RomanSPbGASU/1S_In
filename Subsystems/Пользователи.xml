@@ -20,19 +20,11 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлубныеКарты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Enum.РольПользователя</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Enum.СтатусЛичногоКабинета</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Enum.Статус</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыПриёмаНаРаботу</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.НазваниеОрганизации</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИНН</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ГенеральныйДиректор</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВестиВалютныйУчётПродаж</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СведенияОПользователях</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПереводПользователя</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПодаркиНГ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Обработка1</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПодаркиНГ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПодаркиНГ</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

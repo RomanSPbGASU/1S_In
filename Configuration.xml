@@ -157,6 +157,7 @@
 			<Document>РасходнаяНакладная</Document>
 			<Document>ПереводПользователя</Document>
 			<Document>ПодаркиНГ</Document>
+			<Document>ЗакупкаПодарков</Document>
 			<Enum>РольПользователя</Enum>
 			<Enum>Статус</Enum>
 			<Enum>СтатусЛичногоКабинета</Enum>
@@ -165,6 +166,10 @@
 			<Enum>Происхождение</Enum>
 			<Enum>СпособыОплаты</Enum>
 			<Enum>ПрисутствиеНаКорпоративе</Enum>
+			<Enum>ТипУчастияВМероприятии</Enum>
+			<Enum>Пол</Enum>
+			<Enum>ФизическаяПодготовка</Enum>
+			<Enum>СтатусМероприятия</Enum>
 			<DataProcessor>Обработка1</DataProcessor>
 			<InformationRegister>ЦеныПоставщиков</InformationRegister>
 			<InformationRegister>КурсыВалют</InformationRegister>

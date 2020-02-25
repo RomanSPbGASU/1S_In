@@ -5,39 +5,48 @@
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
-		<InputField name="Номер" id="1">
-			<DataPath>Объект.Number</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
-		</InputField>
-		<InputField name="Дата" id="4">
-			<DataPath>Объект.Date</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
-			<Events>
-				<Event name="OnChange">ДатаПриИзменении</Event>
-			</Events>
-		</InputField>
-		<InputField name="Годы" id="38">
-			<DataPath>Объект.Годы</DataPath>
-			<ContextMenu name="ГодыКонтекстноеМеню" id="39"/>
-			<ExtendedTooltip name="ГодыРасширеннаяПодсказка" id="40"/>
-			<Events>
-				<Event name="OnChange">ГодыПриИзменении</Event>
-				<Event name="EditTextChange">ГодыИзменениеТекстаРедактирования</Event>
-				<Event name="AutoComplete">ГодыАвтоПодбор</Event>
-				<Event name="StartChoice">ГодыНачалоВыбора</Event>
-				<Event name="Tuning">ГодыРегулирование</Event>
-				<Event name="Creating">ГодыСоздание</Event>
-				<Event name="TextEditEnd">ГодыОкончаниеВводаТекста</Event>
-				<Event name="ChoiceProcessing">ГодыОбработкаВыбора</Event>
-			</Events>
-		</InputField>
+		<UsualGroup name="Группа1" id="41">
+			<HorizontalStretch>true</HorizontalStretch>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="42"/>
+			<ChildItems>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+					<Events>
+						<Event name="OnChange">ДатаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Годы" id="38">
+					<DataPath>Объект.Годы</DataPath>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<ContextMenu name="ГодыКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ГодыРасширеннаяПодсказка" id="40"/>
+					<Events>
+						<Event name="OnChange">ГодыПриИзменении</Event>
+						<Event name="EditTextChange">ГодыИзменениеТекстаРедактирования</Event>
+						<Event name="AutoComplete">ГодыАвтоПодбор</Event>
+						<Event name="StartChoice">ГодыНачалоВыбора</Event>
+						<Event name="Tuning">ГодыРегулирование</Event>
+						<Event name="Creating">ГодыСоздание</Event>
+						<Event name="TextEditEnd">ГодыОкончаниеВводаТекста</Event>
+						<Event name="ChoiceProcessing">ГодыОбработкаВыбора</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<Table name="ПодаркиДляПользователей" id="10">
 			<Representation>List</Representation>
+			<Footer>true</Footer>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
 			<DataPath>Объект.ПодаркиДляПользователей</DataPath>
@@ -88,17 +97,24 @@
 					<ContextMenu name="ПодаркиДляПользователейЛичныйКабинетКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="ПодаркиДляПользователейЛичныйКабинетРасширеннаяПодсказка" id="31"/>
 				</InputField>
-				<InputField name="ПодаркиДляПользователейПодарок" id="32">
-					<DataPath>Объект.ПодаркиДляПользователей.Подарок</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ПодаркиДляПользователейПодарокКонтекстноеМеню" id="33"/>
-					<ExtendedTooltip name="ПодаркиДляПользователейПодарокРасширеннаяПодсказка" id="34"/>
-				</InputField>
 				<InputField name="ПодаркиДляПользователейКорпоратив" id="35">
 					<DataPath>Объект.ПодаркиДляПользователей.Корпоратив</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ПодаркиДляПользователейКорпоративКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="ПодаркиДляПользователейКорпоративРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="ПодаркиДляПользователейПодарок" id="43">
+					<DataPath>Объект.ПодаркиДляПользователей.Подарок</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<FooterDataPath>Объект.ПодаркиДляПользователей.RowsCount</FooterDataPath>
+					<FooterText>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Итого: </v8:content>
+						</v8:item>
+					</FooterText>
+					<ContextMenu name="ПодаркиДляПользователейПодарокКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ПодаркиДляПользователейПодарокРасширеннаяПодсказка" id="45"/>
 				</InputField>
 			</ChildItems>
 		</Table>
@@ -113,6 +129,9 @@
 			<UseAlways>
 				<Field>Объект.RegisterRecords</Field>
 			</UseAlways>
+			<Columns>
+				<AdditionalColumns table="Объект.ПодаркиДляПользователей"/>
+			</Columns>
 		</Attribute>
 	</Attributes>
 </Form>

@@ -33,7 +33,7 @@
 			<ExtendedTooltip name="ОбновлёнРасширеннаяПодсказка" id="12"/>
 		</InputField>
 		<InputField name="Мероприятия" id="13">
-			<DataPath>Объект.Мероприятия</DataPath>
+			<DataPath>1/0:951fac46-409f-4e34-a431-cbbfecc8632a</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="МероприятияКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="МероприятияРасширеннаяПодсказка" id="15"/>

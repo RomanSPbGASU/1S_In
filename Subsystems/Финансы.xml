@@ -33,9 +33,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.НазваниеОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЦеныПоставщиков</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КурсыВалют</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПодаркиНГ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Обработка1</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПодаркиНГ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗакупкаПодарков</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
