@@ -13,7 +13,10 @@
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<Explanation/>
-			<Picture/>
+			<Picture>
+				<xr:Ref>StdPicture.Post</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
@@ -33,7 +36,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.НазваниеОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЦеныПоставщиков</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КурсыВалют</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Обработка1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">54d11311-6de2-494a-98da-fbf6f5cd711f</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПодаркиНГ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗакупкаПодарков</xr:Item>
 			</Content>

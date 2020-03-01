@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.7">
+	<Item id="4f653503-c4ab-4c65-9e89-0eb07c1395f0">
+		<Name>Facebook</Name>
+		<Code>000000007</Code>
+		<Description>Facebook</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="415f126e-a3bb-4b47-ae2b-2d774c537327">
+		<Name>Instagram</Name>
+		<Code>000000003</Code>
+		<Description>Instagram</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d4773c23-c371-4522-9548-ab99631429e3">
+		<Name>Instagram2</Name>
+		<Code>000000004</Code>
+		<Description>Instagram 2</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="245def42-1d14-4dd8-b5a2-e13cbe52d4f2">
+		<Name>ВК</Name>
+		<Code>000000005</Code>
+		<Description>ВК</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="66c8dd14-d6ac-4e7a-a196-21edf06e6085">
+		<Name>Телефон</Name>
+		<Code>000000001</Code>
+		<Description>Телефон</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1723a130-2469-4ca0-bd2e-0316a9e2641c">
+		<Name>Телефон2</Name>
+		<Code>000000002</Code>
+		<Description>Телефон 2</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="95f260b5-72ad-42b7-adf9-e16cada4a020">
+		<Name>ЭлектроннаяПочта</Name>
+		<Code>000000006</Code>
+		<Description>Электронная почта</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

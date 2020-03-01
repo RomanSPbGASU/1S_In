@@ -32,18 +32,6 @@
 			<ContextMenu name="ОбновлёнКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ОбновлёнРасширеннаяПодсказка" id="12"/>
 		</InputField>
-		<InputField name="Мероприятия" id="13">
-			<DataPath>1/0:951fac46-409f-4e34-a431-cbbfecc8632a</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="МероприятияКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="МероприятияРасширеннаяПодсказка" id="15"/>
-		</InputField>
-		<InputField name="КлубнаяКарта" id="16">
-			<DataPath>Объект.КлубнаяКарта</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="КлубнаяКартаКонтекстноеМеню" id="17"/>
-			<ExtendedTooltip name="КлубнаяКартаРасширеннаяПодсказка" id="18"/>
-		</InputField>
 		<InputField name="СтатусЛичногоКабинета" id="117">
 			<DataPath>Объект.СтатусЛичногоКабинета</DataPath>
 			<ContextMenu name="СтатусЛичногоКабинетаКонтекстноеМеню" id="118"/>
@@ -317,6 +305,142 @@
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ОбразованиеУчреждениеКонтекстноеМеню" id="115"/>
 									<ExtendedTooltip name="ОбразованиеУчреждениеРасширеннаяПодсказка" id="116"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаМероприятия" id="120">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Мероприятия</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа мероприятия</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаМероприятияРасширеннаяПодсказка" id="121"/>
+					<ChildItems>
+						<Table name="Мероприятия" id="122">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Мероприятия</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="МероприятияКонтекстноеМеню" id="123"/>
+							<AutoCommandBar name="МероприятияКоманднаяПанель" id="124"/>
+							<ExtendedTooltip name="МероприятияРасширеннаяПодсказка" id="125"/>
+							<SearchStringAddition name="МероприятияСтрокаПоиска" id="126">
+								<AdditionSource>
+									<Item>Мероприятия</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="МероприятияСтрокаПоискаКонтекстноеМеню" id="127"/>
+								<ExtendedTooltip name="МероприятияСтрокаПоискаРасширеннаяПодсказка" id="128"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="МероприятияСостояниеПросмотра" id="129">
+								<AdditionSource>
+									<Item>Мероприятия</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="МероприятияСостояниеПросмотраКонтекстноеМеню" id="130"/>
+								<ExtendedTooltip name="МероприятияСостояниеПросмотраРасширеннаяПодсказка" id="131"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="МероприятияУправлениеПоиском" id="132">
+								<AdditionSource>
+									<Item>Мероприятия</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="МероприятияУправлениеПоискомКонтекстноеМеню" id="133"/>
+								<ExtendedTooltip name="МероприятияУправлениеПоискомРасширеннаяПодсказка" id="134"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="МероприятияНомерСтроки" id="135">
+									<DataPath>Объект.Мероприятия.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="МероприятияНомерСтрокиКонтекстноеМеню" id="136"/>
+									<ExtendedTooltip name="МероприятияНомерСтрокиРасширеннаяПодсказка" id="137"/>
+								</LabelField>
+								<InputField name="МероприятияМероприятие" id="138">
+									<DataPath>Объект.Мероприятия.Мероприятие</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="МероприятияМероприятиеКонтекстноеМеню" id="139"/>
+									<ExtendedTooltip name="МероприятияМероприятиеРасширеннаяПодсказка" id="140"/>
+								</InputField>
+								<InputField name="МероприятияТипУчастия" id="141">
+									<DataPath>Объект.Мероприятия.ТипУчастия</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="МероприятияТипУчастияКонтекстноеМеню" id="142"/>
+									<ExtendedTooltip name="МероприятияТипУчастияРасширеннаяПодсказка" id="143"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Карты" id="144">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Карты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Карты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="КартыРасширеннаяПодсказка" id="145"/>
+					<ChildItems>
+						<Table name="КлубныеКарты" id="146">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.КлубныеКарты</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="КлубныеКартыКонтекстноеМеню" id="147"/>
+							<AutoCommandBar name="КлубныеКартыКоманднаяПанель" id="148"/>
+							<ExtendedTooltip name="КлубныеКартыРасширеннаяПодсказка" id="149"/>
+							<SearchStringAddition name="КлубныеКартыСтрокаПоиска" id="150">
+								<AdditionSource>
+									<Item>КлубныеКарты</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КлубныеКартыСтрокаПоискаКонтекстноеМеню" id="151"/>
+								<ExtendedTooltip name="КлубныеКартыСтрокаПоискаРасширеннаяПодсказка" id="152"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КлубныеКартыСостояниеПросмотра" id="153">
+								<AdditionSource>
+									<Item>КлубныеКарты</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КлубныеКартыСостояниеПросмотраКонтекстноеМеню" id="154"/>
+								<ExtendedTooltip name="КлубныеКартыСостояниеПросмотраРасширеннаяПодсказка" id="155"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КлубныеКартыУправлениеПоиском" id="156">
+								<AdditionSource>
+									<Item>КлубныеКарты</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КлубныеКартыУправлениеПоискомКонтекстноеМеню" id="157"/>
+								<ExtendedTooltip name="КлубныеКартыУправлениеПоискомРасширеннаяПодсказка" id="158"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="КлубныеКартыНомерСтроки" id="159">
+									<DataPath>Объект.КлубныеКарты.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КлубныеКартыНомерСтрокиКонтекстноеМеню" id="160"/>
+									<ExtendedTooltip name="КлубныеКартыНомерСтрокиРасширеннаяПодсказка" id="161"/>
+								</LabelField>
+								<InputField name="КлубныеКартыКлубнаяКарта" id="162">
+									<DataPath>Объект.КлубныеКарты.КлубнаяКарта</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КлубныеКартыКлубнаяКартаКонтекстноеМеню" id="163"/>
+									<ExtendedTooltip name="КлубныеКартыКлубнаяКартаРасширеннаяПодсказка" id="164"/>
 								</InputField>
 							</ChildItems>
 						</Table>

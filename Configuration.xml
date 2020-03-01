@@ -137,6 +137,7 @@
 			<Subsystem>Мероприятия</Subsystem>
 			<Subsystem>Финансы</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
+			<Role>Суперпользователь</Role>
 			<FunctionalOption>ВалютныйУчёт</FunctionalOption>
 			<Constant>НазваниеОрганизации</Constant>
 			<Constant>ИНН</Constant>
@@ -151,6 +152,7 @@
 			<Catalog>СтавкиНДС</Catalog>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ПодаркиНГ</Catalog>
+			<Catalog>ТипыКонтактов</Catalog>
 			<Document>РасходДенег</Document>
 			<Document>ПоступлениеДенег</Document>
 			<Document>ПриходнаяНакладная</Document>
@@ -158,6 +160,7 @@
 			<Document>ПереводПользователя</Document>
 			<Document>ПодаркиНГ</Document>
 			<Document>ЗакупкаПодарков</Document>
+			<Document>МероприятияВДекабре</Document>
 			<Enum>РольПользователя</Enum>
 			<Enum>Статус</Enum>
 			<Enum>СтатусЛичногоКабинета</Enum>
@@ -170,10 +173,12 @@
 			<Enum>Пол</Enum>
 			<Enum>ФизическаяПодготовка</Enum>
 			<Enum>СтатусМероприятия</Enum>
-			<DataProcessor>Обработка1</DataProcessor>
+			<DataProcessor>ЗагрузкаДанныхИзТабличногоДокумента_УФ</DataProcessor>
+			<DataProcessor>ирПортативный</DataProcessor>
 			<InformationRegister>ЦеныПоставщиков</InformationRegister>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>СведенияОПользователях</InformationRegister>
+			<InformationRegister>УчастникиМероприятий</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

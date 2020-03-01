@@ -25,6 +25,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПереводПользователя</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПодаркиНГ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПодаркиНГ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Мероприятия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УчастникиМероприятий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.МероприятияВДекабре</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗакупкаПодарков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипыКонтактов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

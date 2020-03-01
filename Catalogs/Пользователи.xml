@@ -288,7 +288,7 @@
 					<xr:Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ID</v8:content>
+							<v8:content>Номер карты</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -314,7 +314,7 @@
 			<DefaultObjectForm>Catalog.Пользователи.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
-			<DefaultChoiceForm/>
+			<DefaultChoiceForm>Catalog.Пользователи.Form.ФормаВыбора</DefaultChoiceForm>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
@@ -394,46 +394,6 @@
 						<v8:DateQualifiers>
 							<v8:DateFractions>DateTime</v8:DateFractions>
 						</v8:DateQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="4db1e66f-c3f2-4c79-8d6d-6c6eead68eee">
-				<Properties>
-					<Name>КлубнаяКарта</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Клубная карта</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:CatalogRef.КлубныеКарты</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -911,6 +871,139 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<TabularSection uuid="15afb68a-8d07-4b73-a913-571bd31f94cc">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.Пользователи.Мероприятия" category="TabularSection">
+						<xr:TypeId>aacbd5ce-c41f-4c80-8ae5-2ad1bd7c350e</xr:TypeId>
+						<xr:ValueId>153db96c-63e1-4689-89a7-c6084383e2c7</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.Пользователи.Мероприятия" category="TabularSectionRow">
+						<xr:TypeId>5463f289-97f3-4b10-a423-3934460b0d6f</xr:TypeId>
+						<xr:ValueId>8dbe0c71-a36a-49ca-a4bb-c5c584991a03</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Мероприятия</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Участие в мероприятиях</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Ссылается на те мероприятия, где пользователь был задействован в качестве участника</Comment>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+					<StandardAttributes>
+						<xr:StandardAttribute name="LineNumber">
+							<xr:LinkByType/>
+							<xr:FillChecking>DontCheck</xr:FillChecking>
+							<xr:MultiLine>false</xr:MultiLine>
+							<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+							<xr:CreateOnInput>Auto</xr:CreateOnInput>
+							<xr:MaxValue xsi:nil="true"/>
+							<xr:ToolTip/>
+							<xr:ExtendedEdit>false</xr:ExtendedEdit>
+							<xr:Format/>
+							<xr:ChoiceForm/>
+							<xr:QuickChoice>Auto</xr:QuickChoice>
+							<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+							<xr:EditFormat/>
+							<xr:PasswordMode>false</xr:PasswordMode>
+							<xr:DataHistory>Use</xr:DataHistory>
+							<xr:MarkNegatives>false</xr:MarkNegatives>
+							<xr:MinValue xsi:nil="true"/>
+							<xr:Synonym/>
+							<xr:Comment/>
+							<xr:FullTextSearch>Use</xr:FullTextSearch>
+							<xr:ChoiceParameterLinks/>
+							<xr:FillValue xsi:nil="true"/>
+							<xr:Mask/>
+							<xr:ChoiceParameters/>
+						</xr:StandardAttribute>
+					</StandardAttributes>
+					<Use>ForItem</Use>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="7503f6b8-1770-48ac-aafc-f7298cf32849">
+						<Properties>
+							<Name>Мероприятие</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Мероприятие</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment>Мероприятие, в котором участвовал пользователь</Comment>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Мероприятия</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters>
+								<app:item name="Отбор.Наименование">
+									<app:value xsi:type="xr:DesignTimeRef">Catalog.Мероприятия.EmptyRef</app:value>
+								</app:item>
+							</ChoiceParameters>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="35089109-388b-4dc2-8b3e-5c18553c1275">
+						<Properties>
+							<Name>ТипУчастия</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Тип участия</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:EnumRef.ТипУчастияВМероприятии</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 			<TabularSection uuid="d57e4db7-1f54-4b63-a248-5a037f114cb0">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.Пользователи.Образование" category="TabularSection">
@@ -1133,26 +1226,26 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="15afb68a-8d07-4b73-a913-571bd31f94cc">
+			<TabularSection uuid="19e244ec-57f9-4db7-97cf-baf0ce86d581">
 				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.Пользователи.Мероприятия" category="TabularSection">
-						<xr:TypeId>aacbd5ce-c41f-4c80-8ae5-2ad1bd7c350e</xr:TypeId>
-						<xr:ValueId>153db96c-63e1-4689-89a7-c6084383e2c7</xr:ValueId>
+					<xr:GeneratedType name="CatalogTabularSection.Пользователи.КлубныеКарты" category="TabularSection">
+						<xr:TypeId>2d414bc8-ec6c-4c1d-94ec-def298e54e06</xr:TypeId>
+						<xr:ValueId>76e559ff-3dc9-428d-beb0-d2b3d894496f</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.Пользователи.Мероприятия" category="TabularSectionRow">
-						<xr:TypeId>5463f289-97f3-4b10-a423-3934460b0d6f</xr:TypeId>
-						<xr:ValueId>8dbe0c71-a36a-49ca-a4bb-c5c584991a03</xr:ValueId>
+					<xr:GeneratedType name="CatalogTabularSectionRow.Пользователи.КлубныеКарты" category="TabularSectionRow">
+						<xr:TypeId>450da16d-d208-487a-97ff-fb6b1590fe76</xr:TypeId>
+						<xr:ValueId>58835e6e-8708-4c7d-849f-e544f63085cf</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>Мероприятия</Name>
+					<Name>КлубныеКарты</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Участие в мероприятиях</v8:content>
+							<v8:content>Клубные карты</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Ссылается на те мероприятия, где пользователь был задействован в качестве участника</Comment>
+					<Comment/>
 					<ToolTip/>
 					<FillChecking>DontCheck</FillChecking>
 					<StandardAttributes>
@@ -1186,55 +1279,18 @@
 					<Use>ForItem</Use>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="7503f6b8-1770-48ac-aafc-f7298cf32849">
+					<Attribute uuid="99052ad3-2c6c-4991-8a72-bd9814886985">
 						<Properties>
-							<Name>Мероприятие</Name>
+							<Name>КлубнаяКарта</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Мероприятие</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment>Мероприятие, в котором участвовал пользователь</Comment>
-							<Type>
-								<v8:Type>cfg:CatalogRef.Мероприятия</v8:Type>
-							</Type>
-							<PasswordMode>false</PasswordMode>
-							<Format/>
-							<EditFormat/>
-							<ToolTip/>
-							<MarkNegatives>false</MarkNegatives>
-							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
-							<MinValue xsi:nil="true"/>
-							<MaxValue xsi:nil="true"/>
-							<FillChecking>DontCheck</FillChecking>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
-							<QuickChoice>Auto</QuickChoice>
-							<CreateOnInput>Auto</CreateOnInput>
-							<ChoiceForm/>
-							<LinkByType/>
-							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-							<Indexing>DontIndex</Indexing>
-							<FullTextSearch>Use</FullTextSearch>
-							<DataHistory>Use</DataHistory>
-						</Properties>
-					</Attribute>
-					<Attribute uuid="35089109-388b-4dc2-8b3e-5c18553c1275">
-						<Properties>
-							<Name>ТипУчастия</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Тип участия</v8:content>
+									<v8:content>Клубная карта</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:EnumRef.ТипУчастияВМероприятии</v8:Type>
+								<v8:Type>cfg:CatalogRef.КлубныеКарты</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -1248,7 +1304,13 @@
 							<MaxValue xsi:nil="true"/>
 							<FillChecking>DontCheck</FillChecking>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
+							<ChoiceParameterLinks>
+								<xr:Link>
+									<xr:Name>НомерСтроки</xr:Name>
+									<xr:DataPath xsi:type="xs:string">Catalog.Пользователи.TabularSection.КлубныеКарты.StandardAttribute.LineNumber</xr:DataPath>
+									<xr:ValueChange>Clear</xr:ValueChange>
+								</xr:Link>
+							</ChoiceParameterLinks>
 							<ChoiceParameters/>
 							<QuickChoice>Auto</QuickChoice>
 							<CreateOnInput>Auto</CreateOnInput>
@@ -1264,6 +1326,7 @@
 			</TabularSection>
 			<Form>ФормаЭлемента</Form>
 			<Form>ФормаВыбораБезГрупп</Form>
+			<Form>ФормаВыбора</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

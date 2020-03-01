@@ -19,8 +19,10 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Мероприятия</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Обработка1</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПодаркиНГ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УчастникиМероприятий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.МероприятияВДекабре</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
