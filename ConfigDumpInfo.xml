@@ -4,7 +4,9 @@
 		<Metadata name="Catalog.Валюты" id="3c423a3d-2a76-4e23-870e-58835672c8fd" configVersion="74d97e4d94dd3d4f9400eefad5e776ef00000000">
 			<Metadata name="Catalog.Валюты.Attribute.Курс" id="aaca7e13-fb4d-4608-baff-dfee46d2af99"/>
 		</Metadata>
-		<Metadata name="Catalog.КлубныеКарты" id="dc6f0732-d3e7-4bff-8dbc-caf3c5a10b7d" configVersion="eac0d6c9abb9c94db285a381b8607c9d00000000"/>
+		<Metadata name="Catalog.КлубныеКарты" id="dc6f0732-d3e7-4bff-8dbc-caf3c5a10b7d" configVersion="4cb7a75c78b30945a096837ba57efd3800000000">
+			<Metadata name="Catalog.КлубныеКарты.Attribute.ВладелецКарты" id="64ce95bd-db3d-4a0c-af29-ec60072d25d7"/>
+		</Metadata>
 		<Metadata name="Catalog.Контрагенты" id="a2767a31-9a0c-4217-ada8-ffe18bc07f01" configVersion="654efb5ef23a8541bcd1587d6ff35c5300000000">
 			<Metadata name="Catalog.Контрагенты.Attribute.ИНН" id="65510c4c-a5ee-463c-8222-457609bfef82"/>
 			<Metadata name="Catalog.Контрагенты.Attribute.ПолноеНаименование" id="b55fe665-3482-432d-a103-4323ad84ca4b"/>
@@ -14,7 +16,7 @@
 		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента" id="e2caad68-5f3f-472c-9f73-5f51d4a34685" configVersion="3b86dc641b7e314f9fa97dcb59cbef0d00000000"/>
 		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Form" id="e2caad68-5f3f-472c-9f73-5f51d4a34685.0" configVersion="613d371c8d7a254e91fb54fbb55e436500000000"/>
 		<Metadata name="Catalog.Контрагенты.Predefined" id="a2767a31-9a0c-4217-ada8-ffe18bc07f01.1c" configVersion="2778ebfe96aaa44f9e332a84676e6c9a00000000"/>
-		<Metadata name="Catalog.Мероприятия" id="1e48f996-604b-4580-9bcd-f327e3a90777" configVersion="3f22063efc38b04bbc81abea5f5e7d2300000000">
+		<Metadata name="Catalog.Мероприятия" id="1e48f996-604b-4580-9bcd-f327e3a90777" configVersion="4e00cb827c003a4ca56b46e52cf62b1900000000">
 			<Metadata name="Catalog.Мероприятия.Attribute.ДатаНачала" id="12080316-ac2e-473f-9630-f95a56af447e"/>
 			<Metadata name="Catalog.Мероприятия.TabularSection.Участники" id="4d12eaf8-23a8-4eaf-8785-0bd76bc89919"/>
 			<Metadata name="Catalog.Мероприятия.TabularSection.Организаторы" id="5425a337-cfc2-4e2e-9c55-52d647847e7e"/>
@@ -44,7 +46,7 @@
 			<Metadata name="Catalog.ПодаркиНГ.Attribute.Суммируемое" id="22001afa-6bd3-47e1-9148-8cb55cb99d7a"/>
 		</Metadata>
 		<Metadata name="Catalog.ПодаркиНГ.Predefined" id="7cc5157f-0844-4fbf-8461-2d3aa0b688f0.1c" configVersion="00b2ecce0cc24141b2af061a07a7009100000000"/>
-		<Metadata name="Catalog.Пользователи" id="f17552c4-08f7-476a-8938-c15143917bdc" configVersion="b375e9a80b4fc04596fb82f2cd94739600000000">
+		<Metadata name="Catalog.Пользователи" id="f17552c4-08f7-476a-8938-c15143917bdc" configVersion="a23e424001291d49a3e19e4fca03fd9c00000000">
 			<Metadata name="Catalog.Пользователи.Attribute.СтатусЛичногоКабинета" id="03834e4a-904c-4c78-bd4e-261eef9df7bc"/>
 			<Metadata name="Catalog.Пользователи.Attribute.Пол" id="0871e19c-070c-4cd1-83cb-c281e72704c3"/>
 			<Metadata name="Catalog.Пользователи.TabularSection.Контакты.Attribute.ДанныеКонтакта" id="1585b1fb-2b22-49d1-9812-0f5e5e6614c0"/>
@@ -337,11 +339,12 @@
 			<Metadata name="InformationRegister.СведенияОПользователях.Dimension.Пользователь" id="5a193333-22d3-46e7-8782-98b757ff3282"/>
 			<Metadata name="InformationRegister.СведенияОПользователях.Resource.Группа" id="9218135c-ac78-4e1b-965b-0adac9bf4627"/>
 		</Metadata>
-		<Metadata name="InformationRegister.УчастникиМероприятий" id="dbc2a88a-56c2-4fbd-bcd5-9ec0a9c2223c" configVersion="9a06ca9a3f5abe4e981ed975945ee0a100000000">
+		<Metadata name="InformationRegister.УчастникиМероприятий" id="dbc2a88a-56c2-4fbd-bcd5-9ec0a9c2223c" configVersion="5f12a65828fae043aebf7d8c6df6372500000000">
 			<Metadata name="InformationRegister.УчастникиМероприятий.Dimension.Мероприятия" id="604086f8-b004-4e4b-a5b3-f63eb4aae8fe"/>
-			<Metadata name="InformationRegister.УчастникиМероприятий.Dimension.Организаторы" id="9a28cadd-8c0e-42a8-b452-4b4676efa65c"/>
 			<Metadata name="InformationRegister.УчастникиМероприятий.Dimension.Участники" id="d8ba2771-7ba2-4eca-8182-eca1a1c230ab"/>
 		</Metadata>
+		<Metadata name="InformationRegister.УчастникиМероприятий.Form.ФормаЗаписи" id="2cb8527d-c47f-477f-8a9a-755e38e20c96" configVersion="1f048b3f47aa014dad82cd2cb53fa6e700000000"/>
+		<Metadata name="InformationRegister.УчастникиМероприятий.Form.ФормаЗаписи.Form" id="2cb8527d-c47f-477f-8a9a-755e38e20c96.0" configVersion="c8b9ac76f49f90468b1264fd23d46da900000000"/>
 		<Metadata name="InformationRegister.ЦеныПоставщиков" id="146fcaf5-b09c-40ad-abf0-084c532bb50e" configVersion="096dc5a8a1114d4598516ff68276485000000000">
 			<Metadata name="InformationRegister.ЦеныПоставщиков.Dimension.Контрагент" id="0fc0edd0-11c4-4ece-822f-6e62c4a01b19"/>
 			<Metadata name="InformationRegister.ЦеныПоставщиков.Dimension.Номенклатура" id="5aafc0b7-922a-4282-9202-02b805fea38c"/>
@@ -351,7 +354,7 @@
 		<Metadata name="Language.Русский" id="2a46baf4-d82a-4ec1-b478-d29183d40aed" configVersion="c4ecc62cb1e77d4c8327aaf080fc57ea00000000"/>
 		<Metadata name="Role.Суперпользователь" id="f47e58cb-e420-4224-b00e-72b6ea551f7e" configVersion="ee3f2ea88a93bf41ac437be0d4b3812400000000"/>
 		<Metadata name="Role.Суперпользователь.Rights" id="f47e58cb-e420-4224-b00e-72b6ea551f7e.0" configVersion="270a2530b9bbb043b158e88bd4a967c000000000"/>
-		<Metadata name="Subsystem.Администрирование" id="9e04b7f7-126a-42e7-b5a8-0ece64f07e9f" configVersion="62caf3727ae9bc4db5ef9b780797e9c900000000"/>
+		<Metadata name="Subsystem.Администрирование" id="9e04b7f7-126a-42e7-b5a8-0ece64f07e9f" configVersion="2279ff790ebaa64f862c77afda0b354300000000"/>
 		<Metadata name="Subsystem.Мероприятия" id="1a8bacdc-6c5e-4ba2-9518-d5d3042fb4b3" configVersion="7b235485841e6e4aa74491b0983d08af00000000"/>
 		<Metadata name="Subsystem.Пользователи" id="abe7ad76-711a-486c-9d58-9b0771583818" configVersion="56042ca45cb78646911552c3012bf5a100000000"/>
 		<Metadata name="Subsystem.Пользователи.CommandInterface" id="abe7ad76-711a-486c-9d58-9b0771583818.1" configVersion="55a517a3d8fc32489cbdb4cbabc2ffe400000000"/>
